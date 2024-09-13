@@ -1,0 +1,121 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fafafa;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #202020;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 400px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #fafafa;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid #8758ff;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.filter-buttons {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-buttons button {
+  margin-right: 0.5rem;
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #202020;
+}
+.sort-buttons {
+  margin-bottom: 1rem;
+}
+
+.sort-buttons button {
+  margin-right: 0.5rem;
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.sort-buttons button:hover {
+  background-color: #202020;
+}
+
+.sort-buttons button.active {
+  border: 2px solid #fff; /* Выделяем активную кнопку белой границей */
+  background: #6a3cba; /* Изменяем цвет фона для активной кнопки */
+}
+
+.task-counter {
+  margin: 1rem 0;
+  color: #fff;
+  text-align: center;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
